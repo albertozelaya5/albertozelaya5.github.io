@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><!--primero doctype, luego html, head, meta, tittle y por último body-->
+    <head>
+        <meta charset="utf-8"><!--lo primer en el head, contenido en el body, utf 8 para que haya compatibilidad-->
+        <title>Inicio</title><!--Titulo primero que nada-->
+        <link href="./css/Styles2.css " rel="stylesheet"><!--Link Hoja de estilos-->
+    </head>
+    <body>
+        <div id="header"><!--div de divisiones de secciones-->
+            <h1>Benvenido a mi pagina web</h1>
+            <ul>
+                <li><a href="nidex2.html">Inicio</a></li>
+                <li><a href="Sobre-mi.html">Sobre mi</a></li><!--Etiqueta a tipo link-->
+                <li><a href="Contacto.html">Contáctame</a></li>
+                
+
+            </ul>
+        </div>      
+        <div id="content">
+            <p>
+                Cualquier duda que tengas, puedes contactar conmigo usando este 
+                formulario de contacto.
+            </p>
+            <form><!--Para formulario-->
+                <label for="nombre-contacto">Nombre</label><!--Para etiqueta, el for es para vincular el label con el input-->
+                <input type="text" id="nombre-contacto" name="nombre"/>
+                <label for="email-contacto">Email</label>
+                <input type="email" id="email-contacto" name="email"/>
+                <label for="consulta-contacto">¿Cuál es tu consulta?</label>
+                <textarea id="consulta-contacto"></textarea><!--Area de texto donde se puede poner cualquier tipo de texto-->
+                <input type="submit" value="Enviar" />
+            </form>
+        </div> 
+    </body>
+</html>

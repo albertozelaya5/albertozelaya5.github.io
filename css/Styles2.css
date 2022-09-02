@@ -1,0 +1,72 @@
+#header{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+}
+#header h1{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header ul{
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#header li{
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+
+
+#content {
+    padding: 20px;
+}
+#header ul a{
+    color: white;
+    text-decoration: none;
+}
+#header ul a:hover{
+    color: #7c1515;
+}
+#content img{
+    float: left;
+}
+#content p {
+    margin: 0 400px;
+    width: 40%;
+}
+#content form{
+    clear: both;
+}
+
+#content form [type=text], #content form [type=email], #content form textarea{
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 0;
+    background-color: #DCF6F7;
+    color: #666666;
+}
+
+#content table{
+    background-color: #ccc;
+}
+
+#content table tr:nth-child(even){
+    background-color: white;
+}
+#content table tr:nth-child(odd){
+    background-color: rgb(40, 152, 156);
+}
+
+#content table tr>* {
+   padding: 3px 10px;
+   border-bottom: 1px solid #666;
+}

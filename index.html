@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead><!--Para agrupar elementos en la cabecera de las tablas-->
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody><!--Agrupar todas las filas en el cuerpo de la tabla-->
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito</td>
+                <td>$19,90</td>
+            </tr>
+            <tr>
+                <td>Hola feliz muy feliz</td>
+                <td>$29,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 49.80$</td>
+        </tfoot>
+
+
+    </table>
+
+
+
+    <!-- Lista no ordenada  -->
+    <ul>
+        <li>Elemeto 1</li>
+        <li>Elemeto 2</li>
+        <li>Elemeto 3</li>
+        <li>Elemeto 4</li>
+    </ul>
+    <!-- Lista Ordenada  -->
+    <ol>
+        <li value="50">Elemeto 1</li>
+        <li>Elemeto 2</li>
+        <li>Elemeto 3</li>
+        <li>Elemeto 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">Subelemnto 1</li>
+                <li style="list-style-type: lower-alpha;">Subelemnto 2</li>
+                <li style="list-style-type: lower-alpha;">Subelemnto 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <hr>
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre</label>
+        <input value="chanchito" type="text" id="Nombre" name="Nombre" placeholder="Nombre" />
+        <!-- *password, *submit, *text, *radio, *checkbox, *file  -->
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input value="feliz" type="text" id="Apellido" name="Apellido" placeholder="Chanchito" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">comentario por defecto</textarea>
+        <br>
+        <button type="button"> Botón</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <h1> Mi primer heading </h1>
+    <h2> Mi segundo heading </h2>
+    <h3> Mi tercer heading </h3>
+    <h4> Mi cuarto heading </h4>
+    <h5> Mi quitno heading </h5>
+    <h6> Chanchito Feliz </h6>
+    <p> Chamchito feliz esta muy feliz </p>
+    <p> Chamchito triste esta muy triste </p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p> Texto un poco
+        <span style="color:blue"> más largo para probar </span>
+         la etiquieta span! <br><br>
+         y mostrar como funciona 
+    </p>
+    <!-- Este es un comentario  -->
+    <a target="_blank" href="https://www.youtube.com/">Ir a Youtube</a>
+    <hr>
+    <!-- target="_blank" es una instancia que hace que se abra en otra ventana el enlace  -->
+    <img src="./css/coffee.png" height="400" /> 
+</body>
+</html>
